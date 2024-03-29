@@ -39,7 +39,10 @@ export class NodeApi<T = any> {
     }
 
     get isLeaf() {
-        return !Array.isArray(this.children) || this.children.length === 0;
+        if (this.tree.props?.isLeafHandler) {
+            return this.tree.props.isLeafHandler(this);
+        }
+        return !Array.isArray(this.children);
     }
 
     get isInternal() {

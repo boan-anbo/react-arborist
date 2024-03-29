@@ -1,6 +1,6 @@
 {
-  "name": "react-arborist",
-  "version": "3.4.0",
+  "name": "@boan/react-arborist",
+  "version": "3.4.1",
   "license": "MIT",
   "source": "src/index.ts",
   "main": "dist/main/index.js",
@@ -22,7 +22,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/brimdata/react-arborist.git"
+    "url": "https://github.com/boan-anbo/react-arborist"
   },
   "homepage": "https://react-arborist.netlify.app",
   "bugs": "https://github.com/brimdata/react-arborist/issues",
