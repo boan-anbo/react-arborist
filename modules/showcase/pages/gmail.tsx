@@ -5,7 +5,7 @@ import {
   NodeRendererProps,
   Tree,
   TreeApi,
-} from "@boan/react-arborist";
+} from "@boan-anbo/react-arborist";
 import { gmailData, GmailItem } from "../data/gmail";
 import * as icons from "react-icons/md";
 import styles from "../styles/Gmail.module.css";
